@@ -1,0 +1,81 @@
+html, body {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	background-image: url("http://previews.123rf.com/images/notkoo2008/notkoo20081506/notkoo2008150609302/41525041-bubble-tea-drink-cartoon-sticker-icon-Stock-Vector-tea.jpg");
+}
+
+.head {
+	display: flex;
+	background-color: rgba(0, 0, 0, 0.9);
+	height: 60px;
+	width: 100vw;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.navbutton {
+	border: 1px solid white;
+	color: white;
+	border: 2px;
+	margin: 10px;
+}
+
+.dandan {
+	padding: 8px 12px 8px 12px;
+	border: 2px solid rgba(0, 0, 0, 0);
+	border-radius: 2px;
+	transition: 400ms;
+}
+
+.dandan:hover {
+	border-color: white;
+}
+
+.title {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+	height: 100px;
+	width: 100vw;
+	font-size: 40px;
+	color: pink;
+}
+
+.row {
+	display: flex;
+	justify-content: center;
+	height: 300px;
+	width: 100vw;
+}
+
+.picture {
+	height: 300px;
+	width: 300px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	background-color: blue;
+	transition: 500ms;
+}
+
+.picture:hover {
+	opacity: 0.5;
+
+}
+
+.picture1 {
+	background-image: url("http://jtbobahouse.yoginpatel.com/wp-content/uploads/2015/08/Bubble_Milk_Tea-320X370.jpg");
+}
+
+.picture2 {
+	background-image: url("http://boulderlocavore.com/wp-content/uploads/2013/07/Boba.jpg");
+}
+
+.picture3 {
+	background-image: url("https://images.blogthings.com/thebobateatest/boba-4.jpg");
+}
+
+.navbutton:hover {
+
+}
